@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import ContactForm from './ContactForm';
+
 class Footer extends React.Component {
     render() {
+        
         return(
             <>
         <div id="footer-contact">
@@ -12,7 +15,7 @@ class Footer extends React.Component {
                         <div className="dot"></div>
                         <div className="pulse"></div>
                         <h4>I am currently unavailable for work.</h4>
-                        <Button variant="primary" href="mailto:ben@benstephan.com">Send a message</Button>
+                        <ContactForm />
                     </Col>
                     <Col md={4} className="align-self-center">
                         <h3>215 350 2309<br />ben@benstephan.com</h3>
@@ -85,6 +88,7 @@ class Footer extends React.Component {
             </Row>
             </Container>
         </div>
+            
         </>
         )
     }

@@ -365,6 +365,34 @@ h1, h2, h3, h4, h5, h6{
     }
     
 }
+body.dark{
+    .modal-content{
+        background-color:#121212;
+        border:1px solid #333;
+    }
+    .modal-header{
+        border-bottom:1px solid #333;
+    }
+    .modal-title, label{
+        color:#FFF;
+    }
+    .form-control{
+        background-color:#222;
+        border:1px solid #333;
+        color:#FAFAFA;
+    }
+}
+.modal, .modal-backdrop{
+    z-index:99999;
+    .form-control{
+        border-radius:0;
+    }
+}
+.modal-content{
+    border-radius:0;
+    border:1px solid #999;
+}
+
 #footer-contact{
     background:$main_color;
     padding:60px 0;

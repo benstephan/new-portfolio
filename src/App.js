@@ -18,6 +18,7 @@ import Works from './pages/Work.js';
 import Portfolios from './pages/Portfolios.js';
 import About from './pages/About.js';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/app.css';
 
@@ -39,6 +40,7 @@ function App() {
   }
 
   TagManager.initialize(tagManagerArgs)
+
 
   return (
     <>
@@ -84,6 +86,8 @@ function App() {
           
         </Switch>
         <Footer />
+    
+        
       </div>
     </Router>
     </>
